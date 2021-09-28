@@ -21,4 +21,4 @@ after_success:
   - docker push asm494/multi-server
   - docker push asm494/multi-worker
 
-install: travis_wait mvn install
+install: travis_wait 20
