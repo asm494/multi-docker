@@ -33,12 +33,6 @@
                 "containerPort": 80
             }
         ],
-        "mountPoints": [
-            {
-               "containerPath": "/var/log/nginx",
-               "sourceVolume": "awseb-logs-NginxSSLRedirect"
-            }
-        ],
         "links": ["client", "server"],
         "memory": 128
      }  
