@@ -17,8 +17,9 @@ function App() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            Fibus Calculus
+            Learn React
           </a>
+          <h1 className="App-title">Fibus Calculus</h1>
           <Link to="/">Home</Link>
           <Link to="/otherpage">Other Page</Link>
         </header>
